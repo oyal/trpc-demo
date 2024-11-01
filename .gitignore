@@ -1,0 +1,86 @@
+# Node.js 依赖
+node_modules/
+pnpm-lock.yaml
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 构建输出
+dist/
+build/
+out/
+.esbuild/
+.vite/
+.cache/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.temp
+
+# TypeScript
+*.tsbuildinfo
+
+# 环境变量文件
+.env
+.env.*.local
+
+# 调试和测试
+debug/
+coverage/
+.nyc_output/
+jest/
+
+# 编辑器设置
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.stackdump
+
+# 锁定文件
+package-lock.json
+yarn.lock
+
+# 静态分析工具
+.eslintcache
+.stylelintcache
+
+# Babel 输出
+*.babel.js
+*.babel.ts
+
+# React Native
+.expo/
+.expo-shared/
+
+# 图片优化缓存
+imagemin-cache/
+
+# 敏感文件
+*.pem
+*.key
+*.crt
+
+# 其他
+pid/
+*.pid
+*.seed
+*.pid.lock
+.profile
